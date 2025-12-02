@@ -126,7 +126,19 @@ The final, trained model object (`loan_status_predictor.pkl`) and the fitted **S
 
 The project includes a FastAPI service that exposes a `/predict` endpoint for real-time inference.
 
-### Prediction Endpoint
+### API Testing
+
+Once the API server is running, you can test the prediction endpoint using two methods: the built-in interactive documentation (Swagger UI) or an external client like Postman.
+
+#### Using Interactive Documentation (Swagger UI)
+
+This is the simplest way to confirm your API is working correctly.
+
+  * **Access the Docs:** Open your web browser and navigate to the documentation URL: `http://127.0.0.1:8000/docs`
+  * **Locate Endpoint:** Find the **`POST /predict`** endpoint.
+  * **Test:** Click the **"Try it out"** button, modify the example JSON body if desired, and click **"Execute"**. The response will show the HTTP status code and the model's prediction (e.g., `{"Loan Status": "Approved"}`).
+
+#### Prediction Endpoint
 
   * **Endpoint:** `/predict`
   * **Method:** `POST`
