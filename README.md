@@ -34,7 +34,7 @@ To set up the project locally, follow these steps:
 1.  **Clone the Repository:**
 
     ```bash
-    git clone 'https://github.com/KarinaDivaMehta/Loan-Approval-Prediction-ML-'
+    git clone ['https://github.com/KarinaDivaMehta/Loan-Approval-Prediction-ML-'](https://github.com/KarinaDivaMehta/Loan-Approval-Prediction-ML-.git)
     cd Loan-Approval-Prediction-ML-
     ```
 
