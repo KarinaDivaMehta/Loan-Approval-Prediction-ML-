@@ -21,7 +21,7 @@ The process involves:
   * [Installation](#installation)
   * [Data and Features](#data-and-features)
   * [Technical Workflow](#technical-workflow)
-  * [API Usage](#api-usage)ch
+  * [API Usage](#api-usage)
   * [Model Performance](#model-performance)
   * [Technical Jargon Explained](#technical-jargon-explained)
 
