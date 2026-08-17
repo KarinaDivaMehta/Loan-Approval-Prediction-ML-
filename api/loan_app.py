@@ -3,11 +3,11 @@ from pydantic import BaseModel
 import joblib
 import pandas as pd
 
-model = joblib.load('loan_status_predictor.pkl')
+model = joblib.load('../models/loan_status_predictor.pkl')
 
 loan_app = FastAPI()
 num_cols = ['ApplicantIncome', 'CoapplicantIncome', 'LoanAmount', 'Loan_Amount_Term']
-scaler = joblib.load('vector.pkl')
+scaler = joblib.load('../models/scaler.pkl')
 
 class LoanApproval(BaseModel):
     Gender: float

@@ -68,7 +68,7 @@ To set up the project locally, follow these steps:
 
 ## Data and Features
 
-The model is trained on the `loan_data.csv` dataset, which includes the following features:
+The model is trained on the `data/loan_data.csv` dataset, which includes the following features:
 
 | Feature Name | Description | Data Type | Example Values |
 | :--- | :--- | :--- | :--- |
@@ -118,7 +118,7 @@ The **Tuned Logistic Regression Model** was selected as the final predictor due 
 
 ### 5\. Final Model Persistence
 
-The final, trained model object (`loan_status_predictor.pkl`) and the fitted **StandardScaler** object (`vector.pkl`) were saved using the `joblib` library, making them ready for immediate deployment and inference.
+The final, trained model object (`models/loan_status_predictor.pkl`) and the fitted **StandardScaler** object (`models/scaler.pkl`) were saved using the `joblib` library, making them ready for immediate deployment and inference.
 
 -----
 
